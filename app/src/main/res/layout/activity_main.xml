@@ -70,7 +70,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="0" />
+                android:tag="0"
+                android:contentDescription="@string/contentDescription" />
             <ImageView
                 android:id="@+id/ImageView1"
                 android:layout_width="match_parent"
@@ -78,7 +79,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="1" />
+                android:tag="1"
+                android:contentDescription="@string/contentDescription" />
 
             <ImageView
                 android:id="@+id/ImageView2"
@@ -87,7 +89,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="2" />
+                android:tag="2"
+                android:contentDescription="@string/contentDescription" />
         </LinearLayout>
 
         <LinearLayout
@@ -103,7 +106,9 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="3" />
+                android:tag="3"
+                android:contentDescription="@string/contentDescription" />
+
             <ImageView
                 android:id="@+id/ImageView4"
                 android:layout_width="match_parent"
@@ -111,7 +116,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="4" />
+                android:tag="4"
+                android:contentDescription="@string/contentDescription" />
 
             <ImageView
                 android:id="@+id/ImageView5"
@@ -120,7 +126,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="5" />
+                android:tag="5"
+                android:contentDescription="@string/contentDescription" />
         </LinearLayout>
 
         <LinearLayout
@@ -136,7 +143,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="6" />
+                android:tag="6"
+                android:contentDescription="@string/contentDescription" />
             <ImageView
                 android:id="@+id/ImageView7"
                 android:layout_width="match_parent"
@@ -144,7 +152,8 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="7" />
+                android:tag="7"
+                android:contentDescription="@string/contentDescription" />
 
             <ImageView
                 android:id="@+id/ImageView8"
@@ -153,8 +162,10 @@
                 android:layout_weight="1"
                 android:padding="10sp"
                 android:onClick="OnTapImage"
-                android:tag="8" />
+                android:tag="8"
+                android:contentDescription="@string/contentDescription" />
         </LinearLayout>
+
     </LinearLayout>
 
     <Button
@@ -165,7 +176,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="131dp"
         android:layout_marginBottom="58dp"
-        android:text="PLAY AGAIN"
+        android:text="@string/playAgain"
         android:visibility="invisible"
         android:onClick="playAgain"
         app:layout_constraintBottom_toBottomOf="parent"
