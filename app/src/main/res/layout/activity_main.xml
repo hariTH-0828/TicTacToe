@@ -71,8 +71,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="@string/contentDescription"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:contentDescription="@string/contentDescription"
                 android:padding="10sp"
                 android:tag="0" />
 
@@ -81,8 +82,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="1"
                 android:contentDescription="@string/contentDescription" />
 
@@ -91,8 +93,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="2"
                 android:contentDescription="@string/contentDescription" />
         </LinearLayout>
@@ -110,8 +113,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="3"
                 android:contentDescription="@string/contentDescription" />
 
@@ -120,8 +124,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="4"
                 android:contentDescription="@string/contentDescription" />
 
@@ -130,8 +135,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="5"
                 android:contentDescription="@string/contentDescription" />
         </LinearLayout>
@@ -149,8 +155,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="6"
                 android:contentDescription="@string/contentDescription" />
             <ImageView
@@ -158,8 +165,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="7"
                 android:contentDescription="@string/contentDescription" />
 
@@ -168,8 +176,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10sp"
                 android:onClick="OnTapImage"
+                android:hapticFeedbackEnabled="true"
+                android:padding="10sp"
                 android:tag="8"
                 android:contentDescription="@string/contentDescription" />
         </LinearLayout>

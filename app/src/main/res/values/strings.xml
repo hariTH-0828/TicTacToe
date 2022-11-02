@@ -4,4 +4,6 @@
     <string name="contentDescription">Image</string>
     <string name="playAgain">PLAY AGAIN</string>
     <string name="turnIndicator">0\'s turn</string>
+    <string name="developerName">Developed By Hariharan</string>
+    <string name="description">Tic Tac Toe is beginning level game</string>
 </resources>

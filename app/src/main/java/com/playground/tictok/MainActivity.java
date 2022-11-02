@@ -1,15 +1,17 @@
 package com.playground.tictok;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.util.Arrays;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,8 +63,10 @@ public class MainActivity extends AppCompatActivity {
                     String winner;
                     if(gameState[winningPos[0]] == 0){
                         winner = "X has won";
+                        gameActive = false;
                     }else{
                         winner = "O has won";
+                        gameActive = false;
                     }
                     TextView status = findViewById(R.id.status);
                     status.setText(winner);
@@ -115,5 +119,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        switch (id){
+            case R.id.about:
+                Intent intent = new Intent(MainActivity.this, About.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
