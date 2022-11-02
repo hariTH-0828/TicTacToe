@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">TicTok</string>
+    <string name="app_name">Tic Tac Toe</string>
     <string name="game_name">Tic Tac Toe</string>
     <string name="contentDescription">Image</string>
     <string name="playAgain">PLAY AGAIN</string>
+    <string name="turnIndicator">0\'s turn</string>
 </resources>
